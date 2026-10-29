@@ -115,7 +115,7 @@ n_routes = st.sidebar.slider("Number of routes to show", 1, 5, 3)
 
 # ------------------------------------------------------------------ target
 st.title("🧪 Retrosynthesis Explorer")
-st.caption("Find possible ways to make a molecule from simple starting materials.")
+st.caption("Find possible ways to Plan a backward Synthesis from the Target Molecule.")
 
 if safety.name_blocked(st.session_state.query):
     st.error(safety.MESSAGE.format(reason="controlled substance, explosive or chemical-weapon agent"))
