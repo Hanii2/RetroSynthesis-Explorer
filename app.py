@@ -410,7 +410,7 @@ with col2:
         st.info("This molecule has stereocentres. The tool shows the constitution only (stereochemistry is ignored).")
 
 tabs = st.tabs([
-    "🔍 Possible last steps",
+    "🔍 Disconnection",
     "🛤️ Full routes",
     "📖 Textbook route",
     "📝 Practice quiz",
